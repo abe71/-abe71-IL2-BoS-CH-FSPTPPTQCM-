@@ -11,22 +11,22 @@ I make use of "non sticky modes", the two leftmost fingerbuttons controls which 
 
 
 # IL-2 configuration
-	*  Make sure to download your map in the CH control manager and then start IL-2. 
-	*  Open a explorer window to ...\IL-2 Sturmovik Battle of Stalingrad\data\input\
-	*  Rename the current.map to current.map.bak
-	*  Copy the current.map from this repo to the input folder of IL-2
-	*  Startup IL-2 and  exit it immidiately
+	*  Make sure to download your map in the CH control manager and then start IL-2.
+	*  Startup IL-2 and  exit it again
+	*  Make a backup of ...\IL-2 Sturmovik Battle of Stalingrad\data\input\
+	*  Copy all current.* from the repository to ...\IL-2 Sturmovik Battle of Stalingrad\data\input\
 	*  Rearrange the controllers in the devices.txt so the CH - virtual controllers comes first, from zero to 3.
-	*  Start IL-2 and try your new controller map.
+	*  Start IL-2 again and try out your new controller map.
 	*  Configure the map to your taste and create a new branch on git hub to share it with others! 
-	*  Be sure to make a pull request to the develop branch with it when you are hapy with it!
+	*  Be sure to make a pull request to the develop branch with it when you are happy with it. Remember to add your IL2 configs before making the PR!
 	
 
 # Rearranging the controllers
 
 Make sure the CH%20Control%20Manager%20Device%201 - CH%20Control%20Manager%20Device%201 in order, remember to change the configId (leave the rest):
+  - Note that the lines should end with a '|', except for the very last controller in the entire list. The list might have more entries than in the example below.
 
-Example (the guid might be different for you)
+Example (the guid is probably different for you)
 configId,guid,model|
 
 0,%2227fa00a0-a5c7-11e7-0000545345440280%22,CH%20Control%20Manager%20Device%201|
@@ -35,7 +35,7 @@ configId,guid,model|
 
 2,%2227fa00a0-a5c7-11e7-0000545345440180%22,CH%20Control%20Manager%20Device%203|
 
-3,%2227fa00a0-a5c7-11e7-0000545345440380%22,CH%20Control%20Manager%20Device%204|
+3,%2227fa00a0-a5c7-11e7-0000545345440380%22,CH%20Control%20Manager%20Device%204
 
 
 # Running the control manager
