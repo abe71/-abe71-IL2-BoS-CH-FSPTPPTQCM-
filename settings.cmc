@@ -176,3 +176,5 @@ supercharger_plus HOLD LSHF =
 vr_camera_zoom KP+
 toggle_aim_assis HOLD RCTL i
 toggle_hud  i
+IPD_plus HOLD LSHF KP+
+IPD_minus HOLD LSHF KPENT
