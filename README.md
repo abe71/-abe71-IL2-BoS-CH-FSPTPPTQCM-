@@ -1,4 +1,4 @@
-# -abe71-joyGremlin-IL2-BoS-CH-FSPTPPTQCM-VR
+# abe71-joyGremlin-IL2-BoS-CH-FSPTPPTQCM-VR
 Joystick gremlin map for IL2 Sturmovik Battle of Stalingrad
 
 This is a map for one engine aircrafts in IL2-Sturmovik Battle of Stalingrad VR. The Joystick Gremlin map is more or less a augmented 1 to 1 directx map of the the physical controllers to virtual vjoy devices. The difference from a 1 to 1 map is that some axises are moved a little due to some strange bug (on my system?) but fomremost are the 4 modes implemented. And the 2 user plugins used for implementing a temporary mode switch on the pro throttle and a sticky on throttle quadrant.
@@ -74,5 +74,3 @@ To hide all game controllers not in the map from the system. To do this start hi
 ### Contribute to this repository
 - Configure your own map and create a branch with it on git hub to share it with others! 
 - Be sure to make a pull request to the develop branch with it when you are happy with it. Remember to add your IL2 configs before making the PR!
-	
-  

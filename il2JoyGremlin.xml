@@ -1461,6 +1461,9 @@
     <vjoy-devices>
         <vjoy-device device-guid="{2C7C6560-3C21-11EC-8002-444553540000}" label="" name="vJoy Device" type="vjoy">
             <mode name="1">
+                <axis description="" id="1"/>
+                <axis description="" id="2"/>
+                <axis description="" id="3"/>
                 <button description="" id="1"/>
                 <button description="" id="2"/>
                 <button description="" id="3"/>
@@ -1497,6 +1500,9 @@
                 <hat description="" id="2"/>
             </mode>
             <mode name="Default">
+                <axis description="" id="1"/>
+                <axis description="" id="2"/>
+                <axis description="" id="3"/>
                 <button description="" id="1"/>
                 <button description="" id="2"/>
                 <button description="" id="3"/>
