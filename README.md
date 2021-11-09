@@ -35,7 +35,7 @@ This is a map for one engine aircrafts in IL2-Sturmovik Battle of Stalingrad VR.
 - vjoy5	Axises: none			 Buttons: 32 	 POVs 2
 - vjoy6	Axises: none			 Buttons: 24 	 POVs 0
 
-The reason for having this many virtual controllers is that IL2 can not handle controllers with more than 32 buttons, POVs not counted.
+The reason for having this many virtual controllers is that IL2 can not handle controllers with more than a total of 64 buttons, hats included.
 
 ### Joystick Gremlin
 - After adding the vjoy devices start Joystick Gremlin. 
